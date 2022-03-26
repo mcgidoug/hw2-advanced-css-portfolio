@@ -1,0 +1,8 @@
+:root {
+  --color1: #c09bb5;
+}
+
+nav {
+  background-color: var(--color1);
+  border-radius: 10px;
+}
