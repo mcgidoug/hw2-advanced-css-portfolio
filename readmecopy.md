@@ -11,14 +11,14 @@ With these points in mind, in this homework you’ll set yourself up for future 
 **Note:** If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
 
 Let’s take a look at what a user story written from the perspective of a hiring manager might look like. As you might remember from your first homework, we follow the AS AN / I WANT / SO THAT format. -->
-
+<!--
 ## User Story
 
 ```
 AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
 SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
-```
+``` -->
 
 ## Acceptance Criteria
 

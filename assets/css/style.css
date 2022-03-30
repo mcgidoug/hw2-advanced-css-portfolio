@@ -209,3 +209,13 @@ footer {
   display: flex;
   justify-content: center;
 }
+
+/* adjusts size of web page according to what device is being used */
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+  #aboutMe {
+    width: 100%;
+  }
+}
