@@ -2,6 +2,8 @@
 * {
   font-family: "IBM Plex Sans Arabic", sans-serif;
   font-weight: 200;
+  padding: 5px;
+  margin: 5px;
 }
 
 :root {
@@ -25,7 +27,7 @@ header {
   padding: 1rem;
   color: var(--color2);
   font-size: 2rem;
-  width: 96vw;
+  /* width: 96vw; */
 }
 
 /* main page title styling */
@@ -78,8 +80,8 @@ a:visited {
   text-align: center;
   position: relative;
   display: flex;
-  padding-left: 20rem;
-  padding-right: 20rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   flex-wrap: wrap;
   display: flex;
   margin: 0px;
@@ -97,7 +99,7 @@ main {
 #subProjects {
   display: flex;
   justify-content: space-between;
-  margin: 2vw 2vw;
+  margin: 1vw 1vw;
 }
 /* section boxes main styling */
 section {
@@ -119,9 +121,7 @@ section h2 {
   position: absolute;
   font-size: 1rem;
   align-items: center;
-  background-color: var(--color4);
   padding: 5px;
-  border-radius: 10px;
   margin: auto;
   top: 0;
   left: 0;
@@ -130,6 +130,12 @@ section h2 {
   height: 1.5rem;
   width: 50%;
   text-align: center;
+}
+
+/* specify background color sizing */
+section h2 a {
+  background-color: var(--color4);
+  border-radius: 10px;
 }
 
 /* fills section boxes with photos */
@@ -150,28 +156,31 @@ section h2 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 20vw;
-  margin: 1vw;
+  /* width: 200px;
+  margin: 10px; */
+  flex: 1 1 200px;
 }
 
-#contactMe {
+#python {
   background-image: url(../img/phone-infront-computer-work.jpg);
   object-fit: contain;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 20vw;
-  margin: 1vw;
+  /* width: 200px;
+  margin: 10px; */
+  flex: 1 1 200px;
 }
 
-#resume {
+#simpleSite {
   background-image: url(../img/person-typing-two-computers.jpg);
   object-fit: contain;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 20vw;
-  margin: 1vw;
+  /* width: 200px;
+  margin: 10px; */
+  flex: 1 1 200px;
 }
 
 /* changes main project section box color and size when hovered over */
@@ -212,10 +221,12 @@ footer {
 
 /* adjusts size of web page according to what device is being used */
 @media screen and (max-width: 768px) {
-  header {
-    width: 100%;
+  nav ul {
+    flex-direction: column;
+    align-items: center;
   }
-  #aboutMe {
-    width: 100%;
+  div#subProjects {
+    flex-direction: column;
+    align-items: center;
   }
 }
