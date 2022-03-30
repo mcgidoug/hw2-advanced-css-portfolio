@@ -1,6 +1,6 @@
 # 02 Advanced CSS: Portfolio
 
-## Your Task
+<!-- ## Your Task
 
 Welcome to this week's homework! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses.
 
@@ -10,7 +10,7 @@ With these points in mind, in this homework you’ll set yourself up for future 
 
 **Note:** If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
 
-Let’s take a look at what a user story written from the perspective of a hiring manager might look like. As you might remember from your first homework, we follow the AS AN / I WANT / SO THAT format.
+Let’s take a look at what a user story written from the perspective of a hiring manager might look like. As you might remember from your first homework, we follow the AS AN / I WANT / SO THAT format. -->
 
 ## User Story
 

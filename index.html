@@ -7,37 +7,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Douglas McGillivray</title>
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
+
     <!-- Website name and nav bar -->
     <header>
         <img src="/assets/img/perfourmer-pic.JPG" alt="picture of a synthesizer" id="perfourmerPic">
         <h1>Douglas<br> McGillivray</h1>
         <nav>
             <ul>
-                <li><a href="#aboutMe">About Me</a></li>
-                <li><a href="#previousWork">My Previous Work</a></li>
+                <li><a href="#refactorProject">Refactor Project</a></li>
+                <li><a href="#cssSnippets">CSS Snippets Project</a></li>
                 <li><a href="#contactMe">Contact Me</a></li>
                 <li><a href="#resume">Resume</a></li>
             </ul>
         </nav>
     </header>
-    <!-- About me, projects and contact info -->
+
+    <!-- About me & project sections-->
+
+    <div id="aboutMe">
+        <h2>About me</h2>
+        <p>
+            I am an aspiring programmer currently enrolled at Northwestern University. My educational background
+            includes art-education and multi-lingual learning. I have been teaching for the past eight years and
+            recently decided to change careers. I currently specialize in HTML, CSS, and JavaScript but plan on
+            furthering my learning on other language applicable to front-end website development.
+        </p>
+    </div>
+
     <main>
-        <section id="aboutMe">
-            <h2>About Me</h2>
+        <section id="refactorProject">
+            <h2><a href="https://www.youtube.com/">Refactor Project</a></h2>
         </section>
-        <section id="previousWork">
-            <h2>Previous Work</h2>
-        </section>
-        <section id="contactMe">
-            <h2>Contact Me</h2>
-        </section>
-        <section id="resume">
-            <h2>Resume</h2>
-        </section>
+        <div id="subProjects">
+            <section id="cssSnippets">
+                <h2><a href="https://www.google.com/">CSS Snippets Project</a></h2>
+            </section>
+            <section id="contactMe">
+                <h2><a href="https://www.github.com/">Contact Me</a></h2>
+            </section>
+            <section id="resume">
+                <h2><a href="https://www.flexboxfroggy.com/">Resume</a></h2>
+            </section>
+        </div>
     </main>
+
     <!-- Contact info -->
     <div class="contact">
         <nav>
@@ -47,6 +67,11 @@
             </ul>
         </nav>
     </div>
+
+    <footer>
+        <h3>Made by Douglas McGillivray</h3>
+        <h4>&copy 2022</h4>
+    </footer>
 
 </body>
 
