@@ -19,7 +19,7 @@
 /* header styling */
 header {
   background-image: url(../img/laptop-typing-wide.jpg);
-  object-fit: contain;
+  object-fit: fill;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -53,13 +53,13 @@ nav ul {
   border: 5px;
   margin: 5px;
   justify-content: flex-end;
-  font-size: 2rem;
+  font-size: 1rem;
   color: var(--color2);
 }
 
 /* spacing betweeen nav bar links */
 li {
-  padding: 20px;
+  padding: 10px;
 }
 
 /* top nav bar link styling */
@@ -139,8 +139,8 @@ section h2 a {
 }
 
 /* fills section boxes with photos */
-#refactorProject {
-  background-image: url(../img/computer-backlit-pink.jpg);
+#memeGenerator {
+  background-image: url(../img/Project\ 1\ Screenshot.png);
   object-fit: contain;
   background-repeat: no-repeat;
   background-size: cover;
@@ -150,8 +150,8 @@ section h2 a {
   margin: 0 2 vw;
 }
 
-#cssSnippets {
-  background-image: url(../img/two-monitors-dark-lighting.jpg);
+#passwordGenerator {
+  background-image: url(../img/password-generator-screenshot.png);
   object-fit: contain;
   background-repeat: no-repeat;
   background-size: cover;
@@ -161,8 +161,8 @@ section h2 a {
   flex: 1 1 200px;
 }
 
-#python {
-  background-image: url(../img/phone-infront-computer-work.jpg);
+#codeQuiz {
+  background-image: url(../img/quiz-screenshot.png);
   object-fit: contain;
   background-repeat: no-repeat;
   background-size: cover;
