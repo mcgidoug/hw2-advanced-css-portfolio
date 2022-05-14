@@ -173,8 +173,8 @@ section h2 a {
   flex: 1 1 200px;
 }
 
-#simpleSite {
-  background-image: url(../img/person-typing-two-computers.jpg);
+#artApp {
+  background-image: url(../img/art-inst-project.png);
   object-fit: contain;
   background-repeat: no-repeat;
   background-size: cover;
