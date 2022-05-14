@@ -8,4 +8,6 @@ GitHub Repository: https://github.com/mcgidoug/hw2-advanced-css-portfolio
 
 ## Screenshot: ![CSS Portfolio Screenshot](./CSS%20Portfolio%20Screenshot.png)
 
-## Updated Screenshot: ![Updated CSS Portfolio Screenshot](./updated-advanced-css-portfolio-screenshot.png)
+## Updated Screenshot 2: ![Updated CSS Portfolio Screenshot](./updated-advanced-css-portfolio-screenshot.png)
+
+## Updated Screenshot 3: ![Updated CSS Portfolio Screenshot](./updated-screenshot-3.png)
